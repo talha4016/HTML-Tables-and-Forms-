@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+  </head>
+  <body>
+    <center><h1>---Trip Form---</h1></center>
+    <form action="form.php">
+        <h1>Textbox</h1>
+    <label for="name">Name: 
+        <input type="text" placeholder="Enter Name" id="name" />
+    </label><br />
+
+
+    <h1>Radio button</h1>
+    <label for="sectionaida">
+      <input type="radio" value="a" name="section" id="sectionida" />Section A
+    </label>
+    <label for="sectionaidb">
+      <input type="radio" value="b" name="section" id="sectionidb" />Section B
+    </label>
+    <label for="sectionidc">
+      <input type="radio" value="c" name="section" id="sectionidc" />Section C
+      <br />
+    </label>
+
+
+    <h1>Checkbox</h1>
+    <input type="checkbox" id="Canteen" class="red" name="Canteen" />Food
+    Canteen <br />
+
+
+    <h1>Text Area</h1>
+    <textarea
+      name="Explain"
+      id="Explain"
+      cols="15"
+      rows="5"
+      placeholder="Why You Want To Join..."
+    ></textarea
+    ><br />
+    <h1>File</h1>
+    
+    <input type="file" accept="image/png, image/jpeg" name="Name" id="file">
+    <h1>Date</h1>
+    <input type="date" name="Time" id="Time" min="2023-01-01" max="2023-12-31" value="2023-01-01">
+    <h1>BUTTON</h1>
+    <input type="button" value="ADD TO CART">
+</form>
+<button>Add to Cart</button>
+
+<h1>Select</h1>
+    <select name="Car" id="car">
+      <option value="default">Select Car</option>
+      <option value="BMW">BMW</option>
+      <option value="Toyata">Toyata</option>
+      <option value="Suzuki">Suzuki</option>i
+    </select><br>
+
+
+
+    <center><a href="/VIdeo.html">Video</a></center>
+    
+  </body>
+</html>
